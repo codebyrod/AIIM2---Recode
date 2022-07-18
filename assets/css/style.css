@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;500;900&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Cairo', sans-serif;
+    outline: none;
+  }
+
+.box-header{
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+}
+
+.header-logo{
+  width: 30vw;
+}
+
+.input-search {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  border-radius: 1rem;
+  border: 1px solid orange;
+  outline: 1px solid orange;
+  padding: 0 1rem;
+}
+
+.nav-input {
+  width: 90%;
+  color: orange;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.btn-search {
+  width: 10%;
+  border: none;
+  outline: none;
+}
+
+.btn-search img {
+  width: 1vw;
+}
+
+.header-logo {
+  padding: 1rem;
+  width: 15vw;
+}
+
+.hover:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container-fluid-slide {
+  padding: 0;
+}
+
+.carousel-main-slide{
+  height: 70vh;
+}
+
+.carousel-caption{
+  display: flex;
+}
+
+.img-main-slider {
+  width: 100vw;
+}
+
+.bg-box-slide {
+  height: 30vh;
+}
+
+.bg-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.txt-slide {
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+.section-travel{
+  height: 70vh;
+}
+
+.box-banner-form{
+  display: flex;
+  width: 50vw;
+}
+
+.box-banner-form img {
+  width: 50vw;
+}
+
+.form-travel {
+  padding: 3rem 0;
+  background-color: #212529;
+}
+
+.box-travel {
+  padding: 0.3rem;
+}
+
+.lb-travel {
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+
+.ipt-travel {
+  width: 35vw;
+  outline: none;
+  border: none;
+  height: 7vh;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: orange;
+}
+
+.box-btn-travel {
+  padding: 1rem;
+}
+
+.btn-travel {
+  width: 15vw;
+  height: 3vw;
+  outline: none;
+  border: none;
+  border-radius: 0.7rem;
+  color: aliceblue;
+  background-color: orange;
+  font-weight: 600;
+}
+
+.card-group{
+  padding: 2rem;
+}
+
+.card-box{
+  margin: 0.5rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+}
+
+.main-contato{
+  background-color: #595a5a;
+}
+
+.m-box{
+  height: 120vh;
+}
+
+.ipt-title, .ipt-label{
+  font-size: 3vw;
+  color:orange;
+}
+
+.ipt-label{
+  font-size: 2vw;
+}
+
+.ipt-box, .ipt-area{
+  width: 35vw;
+  height: 6vh;
+}
+
+.ipt-area{
+  height: 40vh;
+}
+
+.form-contact{
+  height: 110vh;
+}
+
+.ipt-btn{
+  background-color: orange;
+  color: #ffe6ff;
+  width: 11vw;
+  height: 3vw;
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.footer{
+  background-color: #212529;
+  color: aliceblue;
+  padding: 2rem;
+}
+
+.box-footer{
+  width: 20vw;
+  height: 30vh;
+}
+
+.li-footer{
+  list-style: none;
+  
+  padding: 0;
+}
+
+.li-item{
+  text-decoration: none;
+  color: #cdcdcd;
+}
+
+.footer-logo{
+  width: 12vw;
+}
+
+.footer-box-img img{
+  width: 9vw;
+}
+
+.box-logo img{
+  width: 2vw;
+  margin: 0.3rem;
+}
